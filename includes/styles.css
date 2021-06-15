@@ -1,0 +1,257 @@
+
+li {
+    padding: 5px;
+}
+label {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+}
+legend {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+}
+fieldset {
+    border-radius: 15px;
+    padding: 20px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #006F71;
+}
+
+.centeritems{
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.topnav a:hover {
+    background-color: #A27752;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: #A27752;
+    color: white;
+}
+
+.topnav a:visited {
+    color: white;
+}
+.active, .dot:hover {
+    background-color: #A27752;
+}
+
+h1 {
+    font-family: 'Epilogue', sans-serif;
+    color: #006F71;
+    font-size: 2.5em;
+}
+h2 {
+    color: #006F71;
+    font-family: 'Epilogue', sans-serif;
+    font-size:  2em;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Epilogue', sans-serif;
+}
+.homeblock {
+    margin:0 auto;
+    text-align: center;
+    border: #006F71 solid;
+    border-radius: 15px;
+    background-color: white;
+    color: #006F71;
+    padding: 20px;
+    width: 50%;
+}
+.registerblock {
+    margin:0 auto;
+    border-radius: 15px;
+    background-color: white;
+    color: #006F71;
+    padding: 20px;
+    width: 50%;
+}
+
+.loginblock {
+    margin: auto;
+    border-radius: 15px;
+    background-color: white;
+    color: #006F71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logincontainer {
+    margin: auto;
+    text-align: center;
+    border: #006F71 solid;
+    border-radius: 15px;
+    width:35%;
+    padding: 15px;
+}
+
+.userinfoblock {
+    margin:0 auto;
+    border-radius: 15px;
+    background-color: white;
+    color: #006F71;
+    width: 50%;
+    text-align: center;
+}
+.airportlist{
+    margin:0 auto;
+    width: 50%;
+}
+
+a {
+    font-weight: bold;
+}
+
+b {
+    font-style: italic;
+}
+
+b:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+b:visited {
+    color: #a8f5f7;
+    text-decoration: none;
+}
+b:hover {
+    color: #a8f5f7;
+    background-color: #006F71;
+}
+
+b:active {
+    color: #006F71;
+    background-color: #A27752;
+}
+
+
+footer{
+    width: 100%;
+    text-align: center;
+    border-top: 1px #006F71 solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    clear:both;
+}
+header{
+    border-bottom: 1px solid #006F71;
+    padding: 5px;
+    width: 100%;
+
+}
+table.airportlist {
+    margin:0 auto;
+    width: 50%;
+    border-collapse: collapse;
+    border: solid 2px #A27752;
+}
+
+table.airportlist th {
+    border: solid 1px;
+    background-color: #A27752;
+    padding: 5px;
+    font-family: "Epilogue", sans-serif;
+    color: white;
+}
+table.airportlist td, tr{
+    border: none 1px #A27752;
+    padding: 5px;
+    font-family: "Epilogue", sans-serif;
+}
+
+table.airportdetails {
+    margin:0 auto;
+    width: 70%;
+    border-collapse: collapse;
+    border: solid 2px #A27752;
+}
+
+table.airportdetails th {
+    border: solid 2px #A27752;
+    background-color: #A27752;
+    padding: 5px;
+    font-family: "Epilogue", sans-serif;
+    color: white;
+}
+table.airportdetails td, tr{
+    border: solid 2px #A27752;
+    padding: 5px;
+    font-family: "Epilogue", sans-serif;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #A27752;
+    border: none;
+    font-weight: bold;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Epilogue", sans-serif;
+    font-size: 110%;
+}
+input[type=text]{
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    font-size: 110%;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #A27752;
+    border-radius: 4px;
+}
+
+input[type=password]{
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #A27752;
+    border-radius: 4px;
+    font-size: 110%;
+}
+
+.error {
+    color: #A80000;
+    font-family: 'Epilogue', sans-serif;
+}
+.success {
+    color: #006600;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.airportname {
+    color: #006F71;
+}
+
+.airportnameContainer {
+    margin: 0 auto;
+}
+
